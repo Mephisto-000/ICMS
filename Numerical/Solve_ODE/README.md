@@ -14,7 +14,7 @@ initial conditions : y(0) = 0.01, x(0) = 0
 
 
 
-![algo](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/algo.png)
+![algo](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/Solve_ODE/algo.png)
 
 
 
