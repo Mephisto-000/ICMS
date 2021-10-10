@@ -3,11 +3,11 @@
 
 Solve : 
 
-$$\frac{dx}{dt} = y$$
+$\frac{dx}{dt} = y$
 
-$$\frac{dy}{dt} = u(1 - x^{2})y - x$$
+$\frac{dy}{dt} = u(1 - x^{2})y - x$
 
-$$u = sin(t)^{1/5}$$
+$u = sin(t)^{1/5}$
 
 
 
@@ -15,7 +15,7 @@ $$u = sin(t)^{1/5}$$
 
 
 
-![algo](C:\Users\jacko\Github\ICMS\Numerical\algo.png)
+![algo](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/algo.png)
 
 
 
