@@ -1,9 +1,9 @@
 # RK4 example
 
 
-Solve : 
-dx/dt = y
-dy/dt = u(1 - x^2)y - x
+Solve :  
+dx/dt = y  
+dy/dt = u(1 - x^2)y - x  
 
 u = sin(t)^(1/5)  
 step time : 0.01 (s.)  
