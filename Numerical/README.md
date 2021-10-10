@@ -15,7 +15,7 @@ $$u = sin(t)^{1/5}$$
 
 
 
-![image-20211010175946338](C:\Users\jacko\AppData\Roaming\Typora\typora-user-images\image-20211010175946338.png)
+![algo](C:\Users\jacko\Github\ICMS\Numerical\algo.png)
 
 
 
