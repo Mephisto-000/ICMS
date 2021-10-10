@@ -5,7 +5,7 @@ Solve :
 dx/dt = y
 dy/dt = u(1 - x^2)y - x
 
-u = sin(t)^(1/5)
+u = sin(t)^(1/5)  
 init : 
         step time : 0.01 (s.)  
         simulation time : 150 (s.)  
