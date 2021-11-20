@@ -15,6 +15,9 @@
 
 ![ans](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/Solve_ODE/ans.JPG)
 
+## My result : 
+![my_ans](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/Solve_ODE/my_ans.JPG)
+
 ## Reference : 
 
 - Richard L. Burden, J. Douglas Faires, Annette M. Burden, Numerical Analysis.
