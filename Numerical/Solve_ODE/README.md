@@ -3,7 +3,7 @@
 
 Solve :  
 
-![ex](![algo](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/Solve_ODE/ex.JPG)
+![ex](https://github.com/Mephisto-000/ICMS/blob/main/Numerical/Solve_ODE/ex.JPG)
 
 ## Algorithm
 
