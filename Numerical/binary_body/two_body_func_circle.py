@@ -45,6 +45,7 @@ def rk4(pos_0, vel_0, M_1, M_2, t_l, dt, G):
         a2 = a1 + dt*0.5*a1
 
         v3 = v1 + dt*0.5*v2
+
         a3 = a1 + dt*0.5*a2
 
         v4 = v1 + dt*v3
