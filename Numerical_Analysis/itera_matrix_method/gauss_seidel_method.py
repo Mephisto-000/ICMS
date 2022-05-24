@@ -1,9 +1,10 @@
 import numpy as np
 
 
-def jacobi_m(mat_A, mat_b, iter_n, tol, x0=None):
+def gauss_seidel_m(mat_A, mat_b, iter_n, tol, x0=None):
     m, n = mat_A.shape
     b_dim = mat_b.shape
+
     if x0 is None:
         x0 = np.zeros(b_dim, dtype=np.float32)
     x = x0.copy()
@@ -11,9 +12,9 @@ def jacobi_m(mat_A, mat_b, iter_n, tol, x0=None):
     while k < iter_n:
         XO = x.copy()
         for i in range(m):
-            lower_mat = np.dot(mat_A[i, :i], XO[:i])
             upper_mat = np.dot(mat_A[i, i+1:], XO[i+1:])
-            x[i] = (1/mat_A[i][i])*(-(lower_mat + upper_mat) + mat_b[i])
+            lower_mat = np.dot(mat_A[i, :i], x[:i])
+            x[i] = (1/mat_A[i][i])*(-(upper_mat + lower_mat) + mat_b[i])
 
         err = np.linalg.norm(XO - x, np.inf) / np.linalg.norm(x, np.inf)
         if err < tol:
@@ -21,6 +22,9 @@ def jacobi_m(mat_A, mat_b, iter_n, tol, x0=None):
         k += 1
 
     return x, k
+
+
+
 
 
 if __name__ == "__main__":
@@ -31,7 +35,10 @@ if __name__ == "__main__":
 
     mat_b = np.array([[6, 25, -11, 15]], dtype=np.float32).T
 
-    x, k = jacobi_m(mat_A, mat_b, 3, 1e-2)
+
+
+
+    x, k = gauss_seidel_m(mat_A, mat_b, 2, 1e-3)
 
     print(x)
     print(k)
