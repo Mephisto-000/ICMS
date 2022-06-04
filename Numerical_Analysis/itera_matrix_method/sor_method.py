@@ -24,17 +24,17 @@ def sor_method(mat_A, mat_b, omega, iter_n, tol, x0=None):
     return x, k
 
 
-if __name__ == "__main__":
-    mat_A = np.array([[4, 3, 0],
-                      [3, 4, -1],
-                      [0, -1, 4]], dtype=np.float32)
-
-    mat_b = np.array([[24, 30, -24]]).T
-
-    x, k = sor_method(mat_A, mat_b, 1.25, 3, 1e-6)
-
-    print(x)
-    print(k)
+# if __name__ == "__main__":
+#     mat_A = np.array([[4, 3, 0],
+#                       [3, 4, -1],
+#                       [0, -1, 4]], dtype=np.float32)
+#
+#     mat_b = np.array([[24, 30, -24]]).T
+#
+#     x, k = sor_method(mat_A, mat_b, 1.25, 3, 1e-6)
+#
+#     print(x)
+#     print(k)
 
 
 

@@ -23,16 +23,16 @@ def jacobi_m(mat_A, mat_b, iter_n, tol, x0=None):
     return x, k
 
 
-if __name__ == "__main__":
-    mat_A = np.array([[10, -1, 2, 0],
-                      [-1, 11, -1, 3],
-                      [2, -1, 10, -1],
-                      [0, 3, -1, 8]], dtype=np.float32)
-
-    mat_b = np.array([[6, 25, -11, 15]], dtype=np.float32).T
-
-    x, k = jacobi_m(mat_A, mat_b, 3, 1e-2)
-
-    print(x)
-    print(k)
+# if __name__ == "__main__":
+#     mat_A = np.array([[10, -1, 2, 0],
+#                       [-1, 11, -1, 3],
+#                       [2, -1, 10, -1],
+#                       [0, 3, -1, 8]], dtype=np.float32)
+#
+#     mat_b = np.array([[6, 25, -11, 15]], dtype=np.float32).T
+#
+#     x, k = jacobi_m(mat_A, mat_b, 3, 1e-2)
+#
+#     print(x)
+#     print(k)
 
