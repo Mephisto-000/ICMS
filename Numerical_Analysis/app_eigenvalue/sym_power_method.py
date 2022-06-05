@@ -19,7 +19,7 @@ def sym_power_m(mat_A, x0, iter, tol):
 
         k += 1
 
-    return x, mu
+    return x, mu.reshape(1, 1), k
 
 
 if __name__ == "__main__":
@@ -31,10 +31,12 @@ if __name__ == "__main__":
     x = np.array([1, 0, 0], dtype=np.float32).reshape((3, 1))
 
 
-    X, mu = sym_power_m(A, x, iter=9, tol=1e-4)
+    X, mu, iter_num = sym_power_m(A, x, iter=9, tol=1e-4)
     print(X)
     print("\n")
     print(mu)
+    print("\n")
+    print(iter_num)
 
 
 
