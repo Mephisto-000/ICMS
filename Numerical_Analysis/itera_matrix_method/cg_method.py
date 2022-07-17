@@ -41,11 +41,11 @@ def cg_m(mat_A, mat_b, iter, tol, pre_mat=None, x0=None):
 #     mat_A = np.array([[4, 3, 0],
 #                       [3, 4, -1],
 #                       [0, -1, 4]], dtype=np.float32)
-#
+
 #     mat_b = np.array([[24, 30, -24]], dtype=np.float32).T
-#
+
 #     x, r, k = cg_m(mat_A, mat_b, 2, 1e-8)
-#
+
 #     print(x)
 #     print(r)
 #     print(k)
