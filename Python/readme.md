@@ -13,6 +13,8 @@ Python 程式設計筆記
 
 ## Library Used
 
+Python - version 3.8
+
 |  Library   | Version |
 | :--------: | :-----: |
 |   numpy    | 1.22.3  |
