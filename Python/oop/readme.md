@@ -125,3 +125,7 @@ class <CustomExceptionName>(Exception):
     pass
 ```
 
+## 4. 介面與實作
+
+- **介面（interface）**：這是類別提供之方法的集合（以下每個方法期望的參數）。介面顯示了從該類別建立的物件能處理什麼操作。
+- **實作（implementation）**：類別的實際程式碼內容，它展示了物件是如何運作的細節。
